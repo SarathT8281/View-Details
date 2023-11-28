@@ -7,8 +7,7 @@ import axios from "axios";
 
 function App() {
   const [Data, setdata] = useState([]);
-  axios
-    .get("https://jsonplaceholder.typicode.com/users")
+  axios.get("https://jsonplaceholder.typicode.com/users")
     .then((res) => {
       console.log(res.data);
       setdata(res.data);

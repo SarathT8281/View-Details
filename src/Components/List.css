@@ -32,9 +32,6 @@
     width: 350px;
     height: 180px;
     border: 1px  solid black;
-   
-    
-    /* box-shadow: 1px 1px 1px 1px grey; */
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -44,10 +41,6 @@
 
 }
 .icon{
-    /* position: absolute;
-    top: 250px;
-    margin-left: 230px;
-    font-size: large; */
     background-color: transparent;
     border: none;
     cursor: pointer;
